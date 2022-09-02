@@ -49,9 +49,12 @@ public class HomeFragment extends Fragment {
         tabLayout.setupWithViewPager(viewPager);
 
         VPAdapter vpAdapter = new VPAdapter(getChildFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        vpAdapter.addfragment(new Fragment1(), "1");
-        vpAdapter.addfragment(new Fragment2(), "2");
-        vpAdapter.addfragment(new Fragment3(), "3");
+        vpAdapter.addfragment(new Fragment1(), "ПЕСНИ");
+        vpAdapter.addfragment(new Fragment2(), "ПЛЕЙЛИСТЫ");
+        vpAdapter.addfragment(new Fragment3(), "ПАПКИ");
+        vpAdapter.addfragment(new Fragment3(), "АЛЬБОМЫ");
+        vpAdapter.addfragment(new Fragment3(), "АРТИСТЫ");
+        vpAdapter.addfragment(new Fragment3(), "ЖАНРЫ");
 
         viewPager.setAdapter(vpAdapter);
 
