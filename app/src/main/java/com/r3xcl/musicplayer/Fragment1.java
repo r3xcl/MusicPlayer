@@ -1,7 +1,11 @@
 package com.r3xcl.musicplayer;
 
+import android.app.Activity;
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -10,6 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +24,7 @@ public class Fragment1 extends Fragment {
 
     private RecyclerView recView;
     private UserAdapter userAdapter;
+    Window window;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -25,6 +32,7 @@ public class Fragment1 extends Fragment {
         View view;
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_1, container, false);
+
 
         recView = (RecyclerView) view.findViewById(R.id.recView);
         userAdapter = new UserAdapter();
@@ -39,6 +47,9 @@ public class Fragment1 extends Fragment {
         recView.addItemDecoration(itemDecoration);
 
         return view;
+
+
+
     }
 
     private List<String> getListUser(){
@@ -49,4 +60,7 @@ public class Fragment1 extends Fragment {
 
         return list;
     }
+
+
+
 }

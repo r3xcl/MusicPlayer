@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/ic_library_music_118982.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.19610507246376813" />
