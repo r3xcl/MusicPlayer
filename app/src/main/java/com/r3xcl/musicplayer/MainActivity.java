@@ -1,9 +1,13 @@
 package com.r3xcl.musicplayer;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.view.MenuItem;
 import android.view.Menu;
+import android.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -46,10 +50,10 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-      //  getWindow().setStatusBarColor(Color.TRANSPARENT);
 
        drawerLayout = findViewById(R.id.drawer_layout);
        drawerLayout.setStatusBarBackground(R.color.main);
+
 
     }
 

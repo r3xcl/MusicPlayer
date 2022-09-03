@@ -10,7 +10,8 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.MusicPlayer.AppBarOverlay">
+        android:theme="@style/Theme.MusicPlayer.AppBarOverlay"
+        app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -18,7 +19,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/main"
             app:popupTheme="@style/Theme.MusicPlayer.PopupOverlay"
-            app:layout_scrollFlags="scroll"/>
+            app:layout_scrollFlags="scroll" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

@@ -7,10 +7,11 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_baseline_library_music_24"
-            android:title="@string/menu_library" />
+            android:title="@string/menu_library"
+            />
         <item
             android:id="@+id/nav_equalizer"
-            android:icon="@drawable/ic_slider_settings_panel_equalizer_icon_149381"
+            android:icon="@drawable/ic_baseline_graphic_eq_24"
             android:title="@string/menu_equalizer" />
         <item
             android:id="@+id/nav_settings"
