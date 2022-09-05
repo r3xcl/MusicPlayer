@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/drawable/ic_slider_settings_panel_equalizer_icon_149381.xml" value="0.165" />
         <entry key="app/src/main/res/drawable/item_background.xml" value="0.165" />
         <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.165" />
+        <entry key="app/src/main/res/layout-v31/nav_header_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_equalizer.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2569494938504869" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.19610507246376813" />
@@ -22,7 +23,7 @@
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2882546997070312" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/item_user.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.3313032886723508" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.2018263599614133" />
         <entry key="app/src/main/res/layout/recycler_item.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/menu/main.xml" value="0.3098958333333333" />

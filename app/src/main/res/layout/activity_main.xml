@@ -26,5 +26,6 @@
         app:itemTextColor="@color/white"
         app:itemIconTint="@color/white"
         android:theme="@style/NavigationDrawerStyle"
-        app:itemIconPadding="15dp"/>
+        app:itemIconPadding="15dp"
+        app:insetForeground="@color/TRANSPARENT"/>
 </androidx.drawerlayout.widget.DrawerLayout>

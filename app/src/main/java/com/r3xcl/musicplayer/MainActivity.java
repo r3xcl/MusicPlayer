@@ -7,6 +7,7 @@ import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 import android.view.MenuItem;
 import android.view.Menu;
+import android.widget.ImageView;
 import android.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
@@ -19,6 +20,8 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.shape.CornerFamily;
+import com.google.android.material.shape.MaterialShapeDrawable;
 import com.r3xcl.musicplayer.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
     DrawerLayout drawerLayout;
+    ImageView imageView1;
+
 
 
 
@@ -53,6 +58,19 @@ public class MainActivity extends AppCompatActivity {
 
        drawerLayout = findViewById(R.id.drawer_layout);
        drawerLayout.setStatusBarBackground(R.color.main);
+
+       imageView1 = findViewById(R.id.imageView1);
+
+        float radius = getResources().getDimension(R.dimen.roundcorner);
+        navigationView = findViewById(R.id.nav_view);
+        MaterialShapeDrawable navViewBackground = (MaterialShapeDrawable) navigationView.getBackground();
+        navViewBackground.setShapeAppearanceModel(
+                navViewBackground.getShapeAppearanceModel()
+                        .toBuilder()
+                        .setTopRightCorner(CornerFamily.ROUNDED,radius)
+                        .setBottomRightCorner(CornerFamily.ROUNDED,radius)
+                        .build());
+
 
 
     }

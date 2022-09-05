@@ -11,5 +11,5 @@
     <color name="main">#1B435D</color>
     <color name="grey">#CFD2CF</color>
     <color name="orange">#EC994B</color>
-    <color name="nav_header_text_background">#1A000000</color>
+    <color name="nav_header_text_background">#80000000</color>
 </resources>
